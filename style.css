@@ -23,3 +23,24 @@ body{
     color: #79acaa; 
     line-height: 0px;
 }
+.parti{
+    text-align: center;
+    line-height: 700px;
+}
+.parti ul{
+    list-style-type: none;
+}
+.parti ul li{
+    display: inline;
+}
+.parti ul li a{
+    color:white;
+    background-color: red;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+/* .parti ul li a:visited{
+    color: white;
+    background-color: blueviolet;
+} */
