@@ -64,6 +64,7 @@ body {
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
     width: 86%;
+    line-height: 1.6;
   }
 
   .button {
@@ -91,6 +92,7 @@ body {
 
   .flex-parent {
     display: flex;
+    align-items: flex-end;
   }
   
   .jc-center {
