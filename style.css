@@ -22,8 +22,10 @@ body{
 .info{
     text-align: center;
     color: #79acaa; 
-    line-height: 0px;
+    line-height: 20px;
     font-family:verdana;
+    word-wrap: break-word;
+    /* display: flex; */
 }
 .parti{
     text-align: center;
