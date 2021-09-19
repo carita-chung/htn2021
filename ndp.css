@@ -28,3 +28,11 @@ body {
     line-height: 0px;
     font-family: verdana;
 }
+
+.info .right {
+    width: 65%;
+}
+
+.info .left {
+    width: 35%;
+}
