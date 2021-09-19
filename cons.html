@@ -7,6 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conservative Party</title>
     <link rel="stylesheet" href="cons.css">
+
+    <style>
+        {
+            box-sizing: border-box;
+        }
+        /* Set additional styling options for the columns */
+        .column {
+        float: left;
+        }
+    
+        /* Set width length for the left, right and middle columns */
+        .left {
+        width: 30%;
+        }
+    
+        .middle {
+        width: 30%;
+        }
+        
+        .right {
+        width: 30%;
+        }
+    
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+        </style>
 </head>
 
 <body>
@@ -15,9 +44,22 @@
         <div class="info">
             info goes here
         </div>
-        <img alt="Jagmeet Singh" src="images/Jagmeet.jpg" width="200" height="auto">
+        <img alt="Erin O'Tool" src="images/consppl.png" width="200" height=auto>
+        <div class="row">
+            <div class="column left" style="background-color:#f2e2de;">
+                <h2>Housing</h2>
+                <p>Data..</p>
+            </div>
+            <div class="column middle" style="background-color:#f2e2de;">
+                <h2>Column 2</h2>
+                <p>Data..</p>
+            </div>
+            <div class="column right" style="background-color:#f2e2de;">
+                <h2>Column 3</h2>
+                <p>Data..</p>
+            </div>
+        </div>
     </div>
 
 </body>
-
 </html>
