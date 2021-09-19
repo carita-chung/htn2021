@@ -31,8 +31,10 @@ body {
 
 .info .right {
     width: 65%;
+    padding-left: 100px;
 }
 
 .info .left {
     width: 35%;
+    padding-right: 25px;
 }
