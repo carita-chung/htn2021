@@ -23,9 +23,9 @@ body {
 }
 
 .info {
-    text-align: center;
+    text-align: justify;
     color: #79acaa;
-    line-height: 0px;
+    /* line-height: 0px; */
     font-family: verdana;
     word-wrap: break-word;
     display: flex;
