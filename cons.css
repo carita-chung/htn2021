@@ -27,6 +27,8 @@ body {
     color: #79acaa;
     line-height: 0px;
     font-family: verdana;
+    word-wrap: break-word;
+    display: flex;
 }
 
 .collapsible {
